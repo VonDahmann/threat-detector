@@ -1,0 +1,9 @@
+type,content
+URL,https://www.google.com
+URL,http://paypal.secure-login.xyz/verify/account
+URL,http://192.168.1.1/login
+URL,bit.ly/free-prize
+URL,not a url
+MESSAGE,"URGENT! Your account will be suspended. Send your password immediately"
+MESSAGE,"Hi, are we meeting tomorrow?"
+MESSAGE,"Congratulations! You won a prize, claim your gift card at http://free-gift.xyz"
