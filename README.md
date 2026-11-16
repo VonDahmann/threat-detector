@@ -14,6 +14,15 @@ Tests: `mvn clean test`
 - `ui/`         JavaFX user interface
 - `data/`       sample CSV files
 
+
+
+## CSV format
+`data/project_test_dataset.csv` is the teacher's test file (do not edit it).
+Columns: `id,input_type,content,expected_risk_level,expected_category,triggered_rules_description`.
+The parser reads only the first three columns (id, type, content) and ignores the rest and any trailing empty columns.
+Empty content and malformed URLs must become NOT_VERIFIED.
+
+
 The backend (model, service, controller) never imports JavaFX.
 Anything that cannot be verified is reported as NOT_VERIFIED, never LOW.
 

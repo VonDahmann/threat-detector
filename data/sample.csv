@@ -1,8 +1,0 @@
-type,content
-URL,https://www.example.edu/courses/cs302
-URL,http://192.168.1.50/portal/update
-URL,http://user:token@secure-portal.net/auth
-URL,ht!tp://invalid_url_format.com/test
-MESSAGE,"Account verification required within 24 hours. Send your password immediately."
-MESSAGE,"Your lab appointment is confirmed for tomorrow at 2:00 PM."
-MESSAGE,
